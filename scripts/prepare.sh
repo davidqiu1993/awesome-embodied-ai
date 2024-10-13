@@ -33,3 +33,4 @@ pip install -r $DP_SRC/requirements.txt
 cd $DP_SRC
 python update_data_refs.py
 python generate_awesome_list.py
+python generate_awesome_graphs.py

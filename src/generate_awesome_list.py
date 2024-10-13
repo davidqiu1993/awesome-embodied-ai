@@ -26,12 +26,16 @@ def _generate_awesome_list_from_biblist_dict(biblist_dict: dict, level: int) -> 
     if biblist_dict['title'] is not None:
         awesome_list_text = ('#' * level) + ' ' + biblist_dict['title'] + '\n\n'
 
-    for entry in biblist_dict['entries']:
+    sorted_entries: list = biblist_dict['entries']
+    sorted_entries.sort(key=(lambda entry: entry['date']))
+
+    for entry in sorted_entries:
         bibstr = ref2bibstr(entry['ref'])
         awesome_list_text += (
-            '```' + '\n' +
-            bibstr + '\n' +
-            '```' + '\n\n'
+            f'{entry["date"]}\n' +
+            f'```\n' +
+            f'{bibstr}\n' +
+            f'```\n\n'
         )
 
     for theme_k, subdict in biblist_dict['subthemes'].items():
