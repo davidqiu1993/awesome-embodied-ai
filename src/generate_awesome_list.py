@@ -60,7 +60,7 @@ def generate_awesome_list(fp_template: str, fp_data: str, fp_outfile: str) -> st
             leaf_theme = leaf_theme['subthemes'][theme_k]
         leaf_theme['entries'].append(entry)
     
-    awesome_list_text = _generate_awesome_list_from_biblist_dict(biblist_dict, level=1)
+    awesome_list_text = _generate_awesome_list_from_biblist_dict(biblist_dict, level=2)
 
     output_text = template_text.replace('{{{awesome_list}}}\n', awesome_list_text)
 
