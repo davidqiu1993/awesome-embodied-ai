@@ -1,0 +1,56 @@
+{
+    "duan2022survey": {
+        "ref": {
+            "publisher": "IEEE",
+            "year": "2022",
+            "pages": "230--244",
+            "number": "2",
+            "volume": "6",
+            "journal": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+            "author": "Duan, Jiafei and Yu, Samson and Tan, Hui Li and Zhu, Hongyuan and Tan, Cheston",
+            "title": "A survey of embodied ai: From simulators to research tasks",
+            "ENTRYTYPE": "article",
+            "ID": "duan2022survey"
+        },
+        "date": "2022-01-21",
+        "theme": [],
+        "tags": [
+            "survey"
+        ]
+    },
+    "wang2024hpt": {
+        "ref": {
+            "year": "2024",
+            "booktitle": "Neurips",
+            "title": "Scaling Proprioceptive-Visual Learning with Heterogeneous Pre-trained Transformers",
+            "author": "Lirui Wang, Xinlei Chen, Jialiang Zhao, Kaiming He",
+            "ENTRYTYPE": "inproceedings",
+            "ID": "wang2024hpt"
+        },
+        "date": "2024-09-30",
+        "theme": [
+            "cross-embodiment"
+        ],
+        "tags": [
+            "cross-embodiment",
+            "imitation learning",
+            "manipulation"
+        ],
+        "real_robot": true
+    },
+    "paolo2024call": {
+        "ref": {
+            "year": "2024",
+            "journal": "arXiv preprint arXiv:2402.03824",
+            "author": "Paolo, Giuseppe and Gonzalez-Billandon, Jonas and K{\\'e}gl, Bal{\\'a}zs",
+            "title": "A call for embodied AI",
+            "ENTRYTYPE": "article",
+            "ID": "paolo2024call"
+        },
+        "date": "2024-02-06",
+        "theme": [],
+        "tags": [
+            "proposal"
+        ]
+    }
+}
