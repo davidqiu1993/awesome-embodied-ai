@@ -1,5 +1,11 @@
 # Awesome Embodied AI List and Graphs
 
+## Awesome Graphs
+
+Visit: [https://davidqiu1993.github.io/awesome-embodied-ai/](https://davidqiu1993.github.io/awesome-embodied-ai/)
+
+## Awesome List
+
 2022-01-21
 ```
 @article{duan2022survey
@@ -24,7 +30,7 @@ title = A call for embodied AI
 }
 ```
 
-## cross-embodiment
+### cross-embodiment
 
 2024-09-30
 ```
