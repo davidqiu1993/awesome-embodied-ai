@@ -1,3 +1,4 @@
+# Copyright (C) 2024, David Qiu.
 """
 Update references in data with bibliographies.
 """
