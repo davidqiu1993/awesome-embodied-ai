@@ -52,5 +52,189 @@
         "tags": [
             "proposal"
         ]
+    },
+    "qin2024LangSplat": {
+        "ref": {
+            "year": "2024",
+            "pages": "20051--20060",
+            "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "author": "Qin, Minghan and Li, Wanhua and Zhou, Jiawei and Wang, Haoqian and Pfister, Hanspeter",
+            "title": "Langsplat: 3d language gaussian splatting",
+            "ENTRYTYPE": "inproceedings",
+            "ID": "qin2024LangSplat"
+        },
+        "date": "2023-12-26",
+        "theme": [
+            "scene-understanding"
+        ],
+        "tags": [
+            "scene understanding",
+            "3d reconstruction",
+            "semantics reconstruction",
+            "gaussian splatting"
+        ],
+        "github": "https://github.com/minghanqin/LangSplat",
+        "arxiv": "https://arxiv.org/abs/2312.16084",
+        "homepage": "https://langsplat.github.io/",
+        "youtube": "https://www.youtube.com/watch?v=XMlyjsei-Es"
+    },
+    "szot2021habitat": {
+        "ref": {
+            "year": "2021",
+            "pages": "251--266",
+            "volume": "34",
+            "journal": "Advances in neural information processing systems",
+            "author": "Szot, Andrew and Clegg, Alexander and Undersander, Eric and Wijmans, Erik and Zhao, Yili and Turner, John and Maestre, Noah and Mukadam, Mustafa and Chaplot, Devendra Singh and Maksymets, Oleksandr and others",
+            "title": "Habitat 2.0: Training home assistants to rearrange their habitat",
+            "ENTRYTYPE": "article",
+            "ID": "szot2021habitat"
+        },
+        "date": "2021-12-06",
+        "theme": [
+            "benchmarking",
+            "simulator"
+        ],
+        "tags": [
+            "benchmarking",
+            "simulator",
+            "simulation"
+        ],
+        "homepage": "https://aihabitat.org/",
+        "paper": "https://proceedings.neurips.cc/paper/2021/file/021bbc7ee20b71134d53e20206bd6feb-Paper.pdf"
+    },
+    "mordatch2018emergence": {
+        "ref": {
+            "year": "2018",
+            "number": "1",
+            "volume": "32",
+            "booktitle": "Proceedings of the AAAI conference on artificial intelligence",
+            "author": "Mordatch, Igor and Abbeel, Pieter",
+            "title": "Emergence of grounded compositional language in multi-agent populations",
+            "ENTRYTYPE": "inproceedings",
+            "ID": "mordatch2018emergence"
+        },
+        "date": "2017-03-15",
+        "theme": [
+            "language-emergence"
+        ],
+        "tags": [
+            "multi-agent collaboration",
+            "language emergence",
+            "multi-agent communication",
+            "reinforcement learning",
+            "Q-learning"
+        ],
+        "homepage": "https://openai.com/index/learning-to-communicate/",
+        "arxiv": "https://arxiv.org/abs/1703.04908",
+        "paper": "https://dl.acm.org/doi/abs/10.5555/3504035.3504218"
+    },
+    "havrylov2017emergence": {
+        "ref": {
+            "year": "2017",
+            "volume": "30",
+            "journal": "Advances in neural information processing systems",
+            "author": "Havrylov, Serhii and Titov, Ivan",
+            "title": "Emergence of language with multi-agent games: Learning to communicate with sequences of symbols",
+            "ENTRYTYPE": "article",
+            "ID": "havrylov2017emergence"
+        },
+        "date": "2017-05-31",
+        "theme": [
+            "language-emergence"
+        ],
+        "tags": [
+            "multi-agent collaboration",
+            "language emergence",
+            "multi-agent communication",
+            "reinforcement learning",
+            "REINFORCE",
+            "LSTM"
+        ],
+        "arxiv": "https://arxiv.org/abs/1705.11192",
+        "paper": "https://papers.nips.cc/paper_files/paper/2017/hash/70222949cc0db89ab32c9969754d4758-Abstract.html"
+    },
+    "foerster2016learning": {
+        "ref": {
+            "year": "2016",
+            "volume": "29",
+            "journal": "Advances in neural information processing systems",
+            "author": "Foerster, Jakob and Assael, Ioannis Alexandros and De Freitas, Nando and Whiteson, Shimon",
+            "title": "Learning to communicate with deep multi-agent reinforcement learning",
+            "ENTRYTYPE": "article",
+            "ID": "foerster2016learning"
+        },
+        "date": "2016-05-21",
+        "theme": [
+            "language-emergence"
+        ],
+        "tags": [
+            "multi-agent collaboration",
+            "multi-agent communication",
+            "reinforcement learning"
+        ],
+        "arxiv": "https://arxiv.org/abs/1605.06676",
+        "paper": "https://dl.acm.org/doi/10.5555/3157096.3157336",
+        "github": "https://github.com/minqi/learning-to-communicate-pytorch",
+        "youtube": "https://www.youtube.com/watch?v=JUbTWA7gTJ4"
+    },
+    "lazaridou2016multi": {
+        "ref": {
+            "year": "2016",
+            "journal": "arXiv preprint arXiv:1612.07182",
+            "author": "Lazaridou, Angeliki and Peysakhovich, Alexander and Baroni, Marco",
+            "title": "Multi-agent cooperation and the emergence of (natural) language",
+            "ENTRYTYPE": "article",
+            "ID": "lazaridou2016multi"
+        },
+        "date": "2016-12-21",
+        "theme": [
+            "language-emergence"
+        ],
+        "tags": [
+            "multi-agent collaboration",
+            "multi-agent communication",
+            "reinforcement learning"
+        ],
+        "arxiv": "https://arxiv.org/abs/1612.07182"
+    },
+    "graesser2019emergent": {
+        "ref": {
+            "year": "2019",
+            "journal": "arXiv preprint arXiv:1901.08706",
+            "author": "Graesser, Laura and Cho, Kyunghyun and Kiela, Douwe",
+            "title": "Emergent linguistic phenomena in multi-agent communication games",
+            "ENTRYTYPE": "article",
+            "ID": "graesser2019emergent"
+        },
+        "date": "2019-01-25",
+        "theme": [
+            "language-emergence"
+        ],
+        "tags": [
+            "multi-agent collaboration",
+            "multi-agent communication",
+            "reinforcement learning"
+        ],
+        "arxiv": "https://arxiv.org/abs/1901.08706"
+    },
+    "botoko2024emergence": {
+        "ref": {
+            "year": "2024",
+            "pages": "2725--2727",
+            "booktitle": "Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems",
+            "author": "Botoko Ekila, J{\\'e}r{\\^o}me",
+            "title": "Emergence of Linguistic Conventions in Multi-Agent Systems Through Situated Communicative Interactions",
+            "ENTRYTYPE": "inproceedings",
+            "ID": "botoko2024emergence"
+        },
+        "date": "2024-05-06",
+        "theme": [
+            "language-emergence"
+        ],
+        "tags": [
+            "multi-agent collaboration",
+            "multi-agent communication"
+        ],
+        "paper": "https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2725.pdf"
     }
 }
