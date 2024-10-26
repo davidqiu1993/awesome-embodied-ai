@@ -1,4 +1,17 @@
 {
+    "liu2024rdt": {
+        "ref": null,
+        "date": "2024-10-10",
+        "abbrname": "RDT-1B",
+        "theme": [
+            "manipulation"
+        ],
+        "tags": [
+            "manipulation",
+            "diffusion"
+        ],
+        "real_robot": true
+    },
     "duan2022survey": {
         "ref": {
             "publisher": "IEEE",
@@ -53,17 +66,10 @@
             "proposal"
         ]
     },
-    "qin2024LangSplat": {
-        "ref": {
-            "year": "2024",
-            "pages": "20051--20060",
-            "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
-            "author": "Qin, Minghan and Li, Wanhua and Zhou, Jiawei and Wang, Haoqian and Pfister, Hanspeter",
-            "title": "Langsplat: 3d language gaussian splatting",
-            "ENTRYTYPE": "inproceedings",
-            "ID": "qin2024LangSplat"
-        },
+    "qin2024langsplat": {
+        "ref": null,
         "date": "2023-12-26",
+        "abbrname": "LangSplat",
         "theme": [
             "scene-understanding"
         ],
