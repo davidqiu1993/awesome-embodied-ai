@@ -35,7 +35,20 @@ def generate_gitgraph(fp_template: str, fp_data: str, fp_outfile: str) -> str:
                 existing_branches.add(theme_name)
                 gitgraph_text += f'    checkout {theme_name}\n'
         gitgraph_text += f'    checkout {entry["theme_name"]}\n'
-        gitgraph_text += f'    commit id:\"{entry["id"]}\"\n'
+        display_name = entry['id']
+        if 'abbrname' in entry and entry['abbrname']:
+            display_ref_fields = []
+            if 'ref' in entry and 'author' in entry['ref']:
+                display_ref_fields.append(entry['ref']['author'].split(',')[0])
+            if 'ref' in entry and 'year' in entry['ref']:
+                display_ref_fields.append(entry['ref']['year'])
+            else:
+                display_ref_fields.append(entry['date'].split('-')[0])
+            if len(display_ref_fields) > 0:
+                display_name = f'{entry["abbrname"]} [{", ".join(display_ref_fields)}]'
+            else:
+                display_name = f'{entry["abbrname"]}'
+        gitgraph_text += f'    commit id:\"{display_name}\"\n'
 
     output_text = template_text.replace('{{{awesome_graph:gitgraph}}}\n', gitgraph_text)
 
