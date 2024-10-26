@@ -30,6 +30,18 @@ title={A call for embodied AI}
 }
 ```
 
+### manipulation
+
+2024-10-10
+```
+@article{liu2024rdt,
+year={2024},
+journal={arXiv preprint arXiv:2410.07864},
+author={Liu, Songming and Wu, Lingxuan and Li, Bangguo and Tan, Hengkai and Chen, Huayu and Wang, Zhengyi and Xu, Ke and Su, Hang and Zhu, Jun},
+title={RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation}
+}
+```
+
 ### cross-embodiment
 
 2024-09-30
@@ -46,7 +58,7 @@ author={Lirui Wang, Xinlei Chen, Jialiang Zhao, Kaiming He}
 
 2023-12-26
 ```
-@inproceedings{qin2024LangSplat,
+@inproceedings{qin2024langsplat,
 year={2024},
 pages={20051--20060},
 booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},

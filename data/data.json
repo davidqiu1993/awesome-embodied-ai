@@ -1,6 +1,13 @@
 {
     "liu2024rdt": {
-        "ref": null,
+        "ref": {
+            "year": "2024",
+            "journal": "arXiv preprint arXiv:2410.07864",
+            "author": "Liu, Songming and Wu, Lingxuan and Li, Bangguo and Tan, Hengkai and Chen, Huayu and Wang, Zhengyi and Xu, Ke and Su, Hang and Zhu, Jun",
+            "title": "RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation",
+            "ENTRYTYPE": "article",
+            "ID": "liu2024rdt"
+        },
         "date": "2024-10-10",
         "abbrname": "RDT-1B",
         "theme": [
@@ -67,7 +74,15 @@
         ]
     },
     "qin2024langsplat": {
-        "ref": null,
+        "ref": {
+            "year": "2024",
+            "pages": "20051--20060",
+            "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+            "author": "Qin, Minghan and Li, Wanhua and Zhou, Jiawei and Wang, Haoqian and Pfister, Hanspeter",
+            "title": "Langsplat: 3d language gaussian splatting",
+            "ENTRYTYPE": "inproceedings",
+            "ID": "qin2024langsplat"
+        },
         "date": "2023-12-26",
         "abbrname": "LangSplat",
         "theme": [
