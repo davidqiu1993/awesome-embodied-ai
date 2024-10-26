@@ -13,8 +13,8 @@ def ref2bibstr(ref: dict):
     regular_keys.remove('ENTRYTYPE')
 
     bibstr = (
-        f'@{ref["ENTRYTYPE"]}' + '{' + f'{ref["ID"]}\n' +
-        '\n'.join([f'{k} = {ref[k]}' for k in regular_keys]) + '\n' +
+        f'@{ref["ENTRYTYPE"]}' + '{' + f'{ref["ID"]},\n' +
+        ',\n'.join([('%s={%s}' % (k, ref[k])) for k in regular_keys]) + '\n' +
         '}'
     )
 
