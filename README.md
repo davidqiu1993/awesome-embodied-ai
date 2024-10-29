@@ -30,6 +30,34 @@ title={A call for embodied AI}
 }
 ```
 
+### benchmarking
+
+#### dataset
+
+2024-09-22
+```
+@inproceedings{yokoyama2024ovon,
+year={2024},
+booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+author={Yokoyama, Naoki and Ramrakhya, Ram and Das, Abhishek and Batra, Dhruv and Ha, Sehoon},
+title={HM3D-OVON: A Dataset and Benchmark for Open-Vocabulary Object Goal Navigation}
+}
+```
+
+#### simulator
+
+2021-12-06
+```
+@article{szot2021habitat,
+year={2021},
+pages={251--266},
+volume={34},
+journal={Advances in neural information processing systems},
+author={Szot, Andrew and Clegg, Alexander and Undersander, Eric and Wijmans, Erik and Zhao, Yili and Turner, John and Maestre, Noah and Mukadam, Mustafa and Chaplot, Devendra Singh and Maksymets, Oleksandr and others},
+title={Habitat 2.0: Training home assistants to rearrange their habitat}
+}
+```
+
 ### manipulation
 
 2024-10-10
@@ -64,22 +92,6 @@ pages={20051--20060},
 booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
 author={Qin, Minghan and Li, Wanhua and Zhou, Jiawei and Wang, Haoqian and Pfister, Hanspeter},
 title={Langsplat: 3d language gaussian splatting}
-}
-```
-
-### benchmarking
-
-#### simulator
-
-2021-12-06
-```
-@article{szot2021habitat,
-year={2021},
-pages={251--266},
-volume={34},
-journal={Advances in neural information processing systems},
-author={Szot, Andrew and Clegg, Alexander and Undersander, Eric and Wijmans, Erik and Zhao, Yili and Turner, John and Maestre, Noah and Mukadam, Mustafa and Chaplot, Devendra Singh and Maksymets, Oleksandr and others},
-title={Habitat 2.0: Training home assistants to rearrange their habitat}
 }
 ```
 

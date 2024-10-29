@@ -1,4 +1,27 @@
 {
+    "yokoyama2024ovon": {
+        "ref": {
+            "year": "2024",
+            "booktitle": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+            "author": "Yokoyama, Naoki and Ramrakhya, Ram and Das, Abhishek and Batra, Dhruv and Ha, Sehoon",
+            "title": "HM3D-OVON: A Dataset and Benchmark for Open-Vocabulary Object Goal Navigation",
+            "ENTRYTYPE": "inproceedings",
+            "ID": "yokoyama2024ovon"
+        },
+        "date": "2024-09-22",
+        "abbrname": "HM3D-OVON",
+        "theme": [
+            "benchmarking",
+            "dataset"
+        ],
+        "tags": [
+            "benchmarking",
+            "simulation",
+            "dataset",
+            "navigation",
+            "open-vocabulary"
+        ]
+    },
     "liu2024rdt": {
         "ref": {
             "year": "2024",
