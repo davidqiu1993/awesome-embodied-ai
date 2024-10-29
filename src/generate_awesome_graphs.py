@@ -29,12 +29,14 @@ def generate_gitgraph(fp_template: str, fp_data: str, fp_outfile: str) -> str:
         gitgraph_text += f'    checkout main\n'
         if entry['theme_name'] not in existing_branches:
             for i, theme in enumerate(entry['theme']):
-                gitgraph_text += f'    commit id:"({theme})"\n'
                 theme_name = '/'.join(entry['theme'][:i+1])
-                gitgraph_text += f'    branch {theme_name}\n'
-                existing_branches.add(theme_name)
+                if theme_name not in existing_branches:
+                    gitgraph_text += f'    commit id:"({theme})"\n'
+                    gitgraph_text += f'    branch {theme_name}\n'
+                    existing_branches.add(theme_name)
                 gitgraph_text += f'    checkout {theme_name}\n'
-        gitgraph_text += f'    checkout {entry["theme_name"]}\n'
+        else:
+            gitgraph_text += f'    checkout {entry["theme_name"]}\n'
         display_name = entry['id']
         if 'abbrname' in entry and entry['abbrname']:
             display_ref_fields = []
